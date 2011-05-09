@@ -1,0 +1,193 @@
+hw4
+bigDiff(4  36  32)==32
+bigDiff(5  4  3)==2
+bigDiff(3)==0
+bigDiff(6   6  10)==4
+bigDiff(5  6  7)==2
+bigDiff(8   9  11)==3
+bigDiff(100   34    5    2)==98
+bigDiff(2  2  1)==1
+bigDiff(0  0  7)==7
+bigDiff(8    8  400)==392
+bigDiff(23  34  22)==12
+bigDiff(-25  -50  100)==150
+bigDiff(50   3)==47
+bigDiff(1    10   100  1000)==999
+ans =
+     0
+biggerTwo([1  2], [3  4]) = [3  4]
+
+biggerTwo([4], [1  3  5]) = [1  3  5]
+
+biggerTwo([3  4], [1  2]) = [3  4]
+
+biggerTwo([1  1], [1  2]) = [1  2]
+
+biggerTwo([2  1], [1  1]) = [2  1]
+
+biggerTwo([2  2], [1  3]) = [2  2]
+
+biggerTwo([1  3], [2  2]) = [1  3]
+
+biggerTwo([6  7], [1  3]) = [6  7]
+
+biggerTwo([-4  3], [-3  2]) = [-4  3]
+
+biggerTwo([-1 -1], [1  1]) = [1  1]
+
+biggerTwo([-10   1], [9  1]) = [9  1]
+
+biggerTwo([-5 -6], [-7 -2]) = [-7 -2]
+
+biggerTwo([-5.2         4.3], [8.8         9.2]) = [8.8         9.2]
+
+biggerTwo([1  2  3  4  5  6], [1  2  3]) = [1  2  3  4  5  6]
+
+biggerTwo([0  0], [0  0  0]) = [0  0]
+
+biggerTwo([], [1]) = [1]
+
+biggerTwo([], []) = []
+
+biggerTwo([0.5], [2.5]) = [2.5]
+
+biggerTwo([1.4142], [2.2361]) = [2.2361]
+
+biggerTwo([1  3  5  7], [2  4  6  8]) = [2  4  6  8]
+
+Failures: 0
+ans =
+     0
+test1 =
+     0
+test2 =
+     1
+test3 =
+     1
+test4 =
+     1
+test5 =
+     2
+test6 =
+     0
+test7 =
+     2
+test8 =
+     0
+ans =
+number of failed results are 0
+
+      cigarParty(50,0)=1
+      cigarParty(30,0)=0
+      cigarParty(70,1)=1
+      cigarParty(30,1)=0
+      cigarParty(40,0)=1
+      cigarParty(80,1)=1
+      cigarParty(59,0)=1
+      cigarParty(0,1)=0
+      cigarParty(39,1)=0
+      cigarParty(-50,0)=0
+      cigarParty(6.050000e+001,1)=1
+      cigarParty(5.000000e-001,0)=0
+      cigarParty(90,1)=1
+      cigarParty(90,0)=0
+      cigarParty(200000,0)=0
+      cigarParty(200000,1)=1
+      cigarParty(-10,1)=0
+      cigarParty(60,0)=1
+      cigarParty(3.990000e+001,1)=0
+      cigarParty(6.010000e+001,0)=0
+      cigarParty(32,0)=0
+      cigarParty(100,0)=0
+      cigarParty(100,1)=1
+
+Errors: 0
+
+        close10(8,13)->8
+        close10(13,8)->8
+        close10(7,13)->0
+        close10(13,7)->0
+        close10(5,21)->5
+        close10(0,20)->0
+        close10(10,10)->0
+        close10(27,-7)->0
+        close10(15.5,4.5)->0
+        close10(123456,123457)->123456
+        close10(15,15)->0
+        close10(-2,1)->1
+        close10(5,15)->0
+
+Errors: 0
+
+Runs the test for the function diff21, and displays the answer 
+It also checks whether the answer is the same as the value inherent in our 
+test and reports if there are any errors in our test.
+In that case we can simply go back to our code and clarify our mistake
+Here x is the value of diff21(n) where n is the integer
+Number 21x =
+     0
+Number 10x =
+    11
+Number 2x =
+    19
+Number 25x =
+     8
+Number 30x =
+    18
+ans =
+     0
+evenlySpaced(0,0,0) reported correct solution.
+evenlySpaced(-1,-1,-1) reported correct solution.
+evenlySpaced(1,1,1) reported correct solution.
+evenlySpaced(-1,0,1) reported correct solution.
+evenlySpaced(1,2,3) reported correct solution.
+evenlySpaced(2,3,1) reported correct solution.
+evenlySpaced(3,2,1) reported correct solution.
+evenlySpaced(0,0,1) reported correct solution.
+evenlySpaced(1,1,2) reported correct solution.
+evenlySpaced(-1,1,-1) reported correct solution.
+evenlySpaced(1,0,1) reported correct solution.
+evenlySpaced(-1,-2,-3) reported correct solution.
+evenlySpaced(-5,0,5) reported correct solution.
+evenlySpaced(4,2,6) reported correct solution.
+Failures: 0
+        everyNth(Miracle,2)->Mrce
+        everyNth(abcdefg,2)->aceg
+        everyNth(abcdefg,3)->adg
+        everyNth(Chocolate,3)->Cca
+        everyNth(Chocolates,3)->Ccas
+        everyNth(Chocolates,4)->Coe
+        everyNth(Chocolates,100)->C
+        everyNth(This is a String,3)->Tss rg
+ans =
+     0
+w =
+     0
+w =
+     0
+w =
+     1
+w =
+     1
+w =
+     1
+w =
+     1
+w =
+     0
+Failures: 0
+Runs several tests on the function icyhot(t1, t2) 
+where t1 and t2 are integers,
+and returns the number of false tests or tests that fail 
+while calling on the function icyhot
+
+      icyhot(120,-1)=1
+      icyhot(1,50)=0
+      icyhot(77,68)=0
+      icyhot(-1,101)=1
+      icyhot(1,101)=0
+      icyhot(101,-1)=1
+      icyhot(132,212)=0
+      icyhot(0,100)=0
+Total Number of errors in test = 0
+diary off

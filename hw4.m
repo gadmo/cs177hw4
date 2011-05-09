@@ -1,0 +1,10 @@
+test_bigDiff
+test_biggerTwo
+test_caught_speeding
+test_cigarParty
+test_close10
+test_diff21
+test_evenlySpaced
+test_everyNth
+test_firstLast6
+test_icyhot
